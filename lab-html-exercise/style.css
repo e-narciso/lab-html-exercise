@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700&display=swap');
+
+body {
+  font-family: 'Poppins';
+}
+
+header > div {
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+  }
+  
+  nav {
+    width: 600px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .blackHeart {
+    width: 20px;
+    margin-right: 1rem;
+  }
+
+  #npmbar{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-self: center;
+    padding: 10px 25px;
+    box-shadow: 0px 10px 5px grey;
+    position: relative;
+  }
+
+  .npm-logo{
+      width: 80px;
+      margin-right: 10px;
+      padding-top: 5px;
+  }
+
+  .magnifying-glass {
+      margin-left: 20px;
+      width: 26px;
+      background-color: rgb(235, 235, 235);
+      padding: 9px;
+  }
+
+  #npmbar input[type=text] {
+    background-color: rgb(235, 235, 235);
+    padding: 12px;
+    font-size: 17px;
+    border: none;
+    max-width: 1200px;
+    width: 100%;
+  }
+
+  #search-btn {
+    float: right;
+    padding: 13px;
+    background: rgb(255, 57, 57);
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    width: 120px;
+    color: white;
+    border: 1px solid rgb(185, 185, 185);
+  }
+
+  .button {
+    border: none;
+    color:grey;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 0;
+    cursor: pointer;
+  }
+
+  #join-btn {
+      border: 1px solid grey;
+      margin-left: 20px;
+  }
+
+  #amazing-things {
+      background-color: rgba(232,217,217,.3);
+      height: 600px;
+      width: 97%;
+      padding: 24px;
+  }
+
+  #amazing-things h1 {
+      font-size: 5em;
+      text-align: center;
+      margin-bottom: .8em;
+      font-weight: 700;
+  }
+
+  #amazing-things article {
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: .8em;
+      width: 30%;
+  }
+
+  #amazing-things .buttons{
+      text-align: center;
+      margin: 8em 0;
+  }
+
+  .link-btn {
+    background-color: white;
+    border: none;
+    color:black;
+    padding: 20px 60px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 0 30px;
+    cursor: pointer;
+  }
+
+  #see-plans{
+    background-color: #FB3B49;
+    color:rgb(255, 255, 255);
+    box-shadow: 8px 8px 0 rgba(251,59,73,.2);
+  }
+
+  #gem img {
+      display: flex;
+      width: 250px;
+      justify-content: center;
+      position: relative;
+      margin: auto;
+      padding: 50px 0;
+  }
+
+  #gem h2 {
+      text-align: center;
+      font-size: 2em;
+      font-weight: 500;
+      transform: skew(-9deg,0deg);
+  }
+
+#gem > div {
+    margin-bottom: 25px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+  div.background {
+    background-color: rgba(255,204,53,.4);
+    width: 800px;
+    height: 35px;
+    position: relative;
+    z-index: -1;
+    transform: skew(9deg,0deg);
+  }
+
+  #gem article {
+      margin-right: auto;
+      margin-left: auto;
+      max-width: 50%;
+      text-align: center;
+      padding: 15px 0 35px 0;
+  }
+
+  #features > div {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding-bottom: 40px;
+    max-width: 1200px;
+    margin: auto;
+  }
+
+  .feature-box{
+    font-size: 0.8em;
+    text-align: left;
+    box-sizing: border-box;
+    margin: 50px;
+    padding: 10px;
+    width: 40%;
+  }
+
+  .feature-box img{
+      width: 50px;
+      padding-bottom: auto;
+      margin-bottom: auto;
+      display: flex;
+  }
+
+  .feature-box h4 {
+      display: block;
+      color: #ED1C24;
+      margin-top: 15%;
+  }
+
+  footer .link-btn {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 30px;
+      background-color: black;
+      color: white;
+      text-align: center;
+      max-width: 300px;
+      padding: 10px;
+      font-size: .9em;
+      font-weight: 700;
+      box-shadow: 8px 8px 0 rgba(128,83,35,.2);
+  }
